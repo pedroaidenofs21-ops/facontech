@@ -19,46 +19,50 @@
 </head>
 <body>
     <!-- Header -->
-    <header id="header">
-        <div class="container">
-            <nav>
-                <div class="logo">
-                    <!-- Logo local - você precisa baixar e salvar na pasta assets -->
-                    <img src="assets/logo-facontech.png" alt="Facontech" class="logo-img">
-                </div>
-                <ul class="nav-links">
-                    <li><a href="#hero">Início</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#diferenciais">Diferenciais</a></li>
-                    <li><a href="#planos">Planos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-                <button class="mobile-menu-btn">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
     <section id="hero">
+        <!-- Background Gradient -->
+        <div class="hero-gradient"></div>
+        
+        <!-- Dot Grid Sutil -->
+        <div class="dot-grid"></div>
+        
+        <!-- Shapes Container -->
         <div class="hero-shapes">
+            <!-- Formas Orgânicas Principais -->
             <div class="organic-shape organic-shape-1"></div>
             <div class="organic-shape organic-shape-2"></div>
+            <div class="organic-shape organic-shape-3"></div>
+            <div class="organic-shape organic-shape-4"></div>
             
-            <!-- Linhas curvas diagonais -->
-            <div class="curve-line line-1">
-                <svg viewBox="0 0 1440 200" preserveAspectRatio="none">
-                    <path d="M0,100 C300,50 700,150 1440,100" stroke="#8552f2" stroke-width="2" fill="none" />
+            <!-- Linhas Orgânicas -->
+            <div class="organic-line-1"></div>
+            <div class="organic-line-2"></div>
+            
+            <!-- Linhas Conectivas -->
+            <div class="connecting-line connecting-line-1"></div>
+            <div class="connecting-line connecting-line-2"></div>
+            <div class="connecting-line connecting-line-3"></div>
+            
+            <!-- Partículas Flutuantes -->
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            
+            <!-- SVG Waves -->
+            <div class="wave-container">
+                <svg class="wave wave-1" viewBox="0 0 1440 800" preserveAspectRatio="none">
+                    <path d="M0,400 C300,300 700,500 1440,400 L1440,800 L0,800 Z" fill="rgba(133, 82, 242, 0.05)" />
                 </svg>
-            </div>
-            
-            <div class="curve-line line-2">
-                <svg viewBox="0 0 1440 200" preserveAspectRatio="none">
-                    <path d="M0,150 C300,100 700,200 1440,150" stroke="#16f28b" stroke-width="2" fill="none" />
+                <svg class="wave wave-2" viewBox="0 0 1440 800" preserveAspectRatio="none">
+                    <path d="M0,500 C300,600 700,400 1440,500 L1440,800 L0,800 Z" fill="rgba(22, 242, 139, 0.05)" />
                 </svg>
             </div>
         </div>
+        
+        <!-- Conteúdo Principal (mantido igual) -->
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
@@ -67,7 +71,6 @@
                     <a href="#contato" class="btn btn-verde">Fale Conosco</a>
                 </div>
                 <div class="hero-img">
-                    <!-- Imagem local - você precisa baixar e salvar na pasta assets -->
                     <img src="assets/hero-image.png" alt="Facontech" style="max-height: 300px;">
                 </div>
             </div>
