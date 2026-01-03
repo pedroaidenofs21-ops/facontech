@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facontech - Soluções Completas em Tecnologia</title>
+    
+    <!-- Favicon (arquivo único PNG) -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    
+    <!-- CDN para Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
-    <!-- Link para seu CSS externo -->
+    
+    <!-- CSS Local -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,7 +23,7 @@
         <div class="container">
             <nav>
                 <div class="logo">
-                    <!-- Imagem local - você precisa baixar e salvar na pasta assets -->
+                    <!-- Logo local - você precisa baixar e salvar na pasta assets -->
                     <img src="assets/logo-facontech.png" alt="Facontech" class="logo-img">
                 </div>
                 <ul class="nav-links">
@@ -178,22 +186,209 @@
             <div class="planos-container">
                 <!-- Tecnologia -->
                 <div id="tecnologia-container" class="categoria-container active">
-                    <!-- Conteúdo dos planos de tecnologia -->
+                    <div class="plano-card">
+                        <div class="plano-cabecalho">
+                            <div class="plano-categoria">Tecnologia</div>
+                            <h3 class="plano-titulo">Simples</h3>
+                        </div>
+                        <div class="plano-preco">R$ 80 – 120/tarefa</div>
+                        <p class="plano-descricao">Configuração básica, software e diagnósticos</p>
+                        <ul class="plano-detalhes">
+                            <li>Configuração de softwares</li>
+                            <li>Diagnóstico de problemas</li>
+                            <li>Otimização básica</li>
+                            <li>Instalação de periféricos</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="plano-card">
+                        <div class="plano-cabecalho">
+                            <div class="plano-categoria">Tecnologia</div>
+                            <h3 class="plano-titulo">Médio</h3>
+                        </div>
+                        <div class="plano-preco">R$ 150 – 250/projeto</div>
+                        <p class="plano-descricao">Manutenção preventiva, backup, montagem de PCs</p>
+                        <ul class="plano-detalhes">
+                            <li>Manutenção preventiva</li>
+                            <li>Sistema de backup</li>
+                            <li>Montagem de computadores</li>
+                            <li>Atualização de hardware</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="plano-card">
+                        <div class="plano-cabecalho">
+                            <div class="plano-categoria">Tecnologia</div>
+                            <h3 class="plano-titulo">Complexo</h3>
+                        </div>
+                        <div class="plano-preco">R$ 300 – 500/projeto</div>
+                        <p class="plano-descricao">Projetos CFTV, cabeamento, sistemas de acesso</p>
+                        <ul class="plano-detalhes">
+                            <li>Instalação de CFTV</li>
+                            <li>Cabeamento estruturado</li>
+                            <li>Sistemas de controle de acesso</li>
+                            <li>Automação residencial</li>
+                        </ul>
+                    </div>
                 </div>
                 
                 <!-- Design -->
                 <div id="design-container" class="categoria-container">
-                    <!-- Conteúdo dos planos de design -->
+                    <div class="plano-card">
+                        <div class="plano-cabecalho">
+                            <div class="plano-categoria">Design</div>
+                            <h3 class="plano-titulo">Simples</h3>
+                        </div>
+                        <div class="plano-preco">R$ 100 – 150/arte</div>
+                        <p class="plano-descricao">Peças pontuais (banner, post)</p>
+                        <ul class="plano-detalhes">
+                            <li>Design de banner</li>
+                            <li>Posts para redes sociais</li>
+                            <li>Cartão de visita</li>
+                            <li>Flyer promocional</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="plano-card">
+                        <div class="plano-cabecalho">
+                            <div class="plano-categoria">Design</div>
+                            <h3 class="plano-titulo">Médio</h3>
+                        </div>
+                        <div class="plano-preco">R$ 400 – 700/projeto</div>
+                        <p class="plano-descricao">Criação de logo ou atualização de marca</p>
+                        <ul class="plano-detalhes">
+                            <li>Criação de logo</li>
+                            <li>Atualização de identidade visual</li>
+                            <li>Cartela de cores</li>
+                            <li>Manual básico de uso</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="plano-card">
+                        <div class="plano-cabecalho">
+                            <div class="plano-categoria">Design</div>
+                            <h3 class="plano-titulo">Complexo</h3>
+                        </div>
+                        <div class="plano-preco">R$ 1.000 – 2.000/projeto</div>
+                        <p class="plano-descricao">Identidade visual completa</p>
+                        <ul class="plano-detalhes">
+                            <li>Identidade visual completa</li>
+                            <li>Manual de marca detalhado</li>
+                            <li>Design de papelaria</li>
+                            <li>Aplicações diversas</li>
+                        </ul>
+                    </div>
                 </div>
                 
                 <!-- Conteúdo -->
                 <div id="conteudo-container" class="categoria-container">
-                    <!-- Conteúdo dos planos de conteúdo -->
+                    <div class="plano-card">
+                        <div class="plano-cabecalho">
+                            <div class="plano-categoria">Conteúdo</div>
+                            <h3 class="plano-titulo">Vídeo Curto</h3>
+                        </div>
+                        <div class="plano-preco">R$ 250 – 350/minuto</div>
+                        <p class="plano-descricao">Até 1 minuto; gravação + edição + legenda</p>
+                        <ul class="plano-detalhes">
+                            <li>Gravação profissional</li>
+                            <li>Edição completa</li>
+                            <li>Legendas</li>
+                            <li>Trilha sonora</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="plano-card">
+                        <div class="plano-cabecalho">
+                            <div class="plano-categoria">Conteúdo</div>
+                            <h3 class="plano-titulo">Vídeo Longo</h3>
+                        </div>
+                        <div class="plano-preco">R$ 300 – 400/minuto</div>
+                        <p class="plano-descricao">1–5 minutos; roteiro, gravação e edição completas</p>
+                        <ul class="plano-detalhes">
+                            <li>Roteiro personalizado</li>
+                            <li>Gravação profissional</li>
+                            <li>Edição avançada</li>
+                            <li>Efeitos visuais</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="plano-card">
+                        <div class="plano-cabecalho">
+                            <div class="plano-categoria">Conteúdo</div>
+                            <h3 class="plano-titulo">Projeto Especial</h3>
+                        </div>
+                        <div class="plano-preco">R$ 500 – 800/projeto</div>
+                        <p class="plano-descricao">Lives, tutoriais e streams</p>
+                        <ul class="plano-detalhes">
+                            <li>Transmissão ao vivo</li>
+                            <li>Tutoriais passo a passo</li>
+                            <li>Streaming profissional</li>
+                            <li>Pós-produção</li>
+                        </ul>
+                    </div>
                 </div>
                 
                 <!-- Planos Mensais -->
                 <div id="mensais-container" class="categoria-container">
-                    <!-- Conteúdo dos planos mensais -->
+                    <div class="plano-card">
+                        <div class="plano-cabecalho">
+                            <div class="plano-categoria">Mensal</div>
+                            <h3 class="plano-titulo">Essencial TI</h3>
+                        </div>
+                        <div class="plano-preco">R$ 800/mês</div>
+                        <p class="plano-descricao">Suporte técnico essencial para sua empresa</p>
+                        <ul class="plano-detalhes">
+                            <li>Até 6 atendimentos remotos</li>
+                            <li>2 atendimentos presenciais</li>
+                            <li>Manutenções preventivas</li>
+                            <li>Backup de dados</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="plano-card">
+                        <div class="plano-cabecalho">
+                            <div class="plano-categoria">Mensal</div>
+                            <h3 class="plano-titulo">Criativo</h3>
+                        </div>
+                        <div class="plano-preco">R$ 1200/mês</div>
+                        <p class="plano-descricao">Design sob demanda para suas necessidades</p>
+                        <ul class="plano-detalhes">
+                            <li>5 artes sob demanda</li>
+                            <li>Até 3 revisões cada</li>
+                            <li>Posts para redes sociais</li>
+                            <li>Banners e materiais gráficos</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="plano-card">
+                        <div class="plano-cabecalho">
+                            <div class="plano-categoria">Mensal</div>
+                            <h3 class="plano-titulo">Multimídia</h3>
+                        </div>
+                        <div class="plano-preco">R$ 1500/mês</div>
+                        <p class="plano-descricao">Conteúdo audiovisual para sua marca</p>
+                        <ul class="plano-detalhes">
+                            <li>3 vídeos mensais</li>
+                            <li>Até 3 minutos cada</li>
+                            <li>1 revisão por vídeo</li>
+                            <li>Gravação e edição</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="plano-card">
+                        <div class="plano-cabecalho">
+                            <div class="plano-categoria">Mensal</div>
+                            <h3 class="plano-titulo">Full Service</h3>
+                        </div>
+                        <div class="plano-preco">R$ 2500/mês</div>
+                        <p class="plano-descricao">Solução completa para seu negócio</p>
+                        <ul class="plano-detalhes">
+                            <li>6 atendimentos remotos</li>
+                            <li>1 atendimento presencial</li>
+                            <li>4 artes + 2 vídeos</li>
+                            <li>1 live mensal</li>
+                        </ul>
+                    </div>
                 </div>
                 
                 <!-- Observação Geral -->
@@ -287,11 +482,13 @@
                             <textarea id="mensagem" name="mensagem" required></textarea>
                         </div>
                         
+                        <!-- Campos extras para segurança e personalização -->
                         <input type="text" name="_gotcha" style="display:none">
                         <input type="hidden" name="_subject" value="Novo contato do site Facontech">
                         
                         <button type="submit" class="btn btn-verde">Enviar Mensagem</button>
                         
+                        <!-- Mensagem de feedback -->
                         <div class="form-feedback form-success" id="form-success">
                             Mensagem enviada com sucesso! Entraremos em contato em breve.
                         </div>
@@ -338,7 +535,7 @@
         <i class="fab fa-whatsapp"></i>
     </a>
 
-    <!-- Link para seu JavaScript externo -->
+    <!-- JavaScript Local -->
     <script src="js/script.js"></script>
 </body>
 </html>
